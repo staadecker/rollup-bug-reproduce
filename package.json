@@ -1,0 +1,14 @@
+{
+  "name": "rollup-bug-reproduce",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "build-and-run": "rollup -c && node out/index.js"
+  },
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^13.0.1",
+    "rollup": "^2.21.0"
+  }
+}
