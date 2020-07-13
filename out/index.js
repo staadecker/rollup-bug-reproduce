@@ -9,7 +9,6 @@ let someOptionalDependency;
 try {
   someOptionalDependency = optionalDep;
 } catch (e) {
-  someOptionalDependency = null;
 }
 
 if (someOptionalDependency) {
